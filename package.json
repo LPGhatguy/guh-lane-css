@@ -1,0 +1,23 @@
+{
+  "name": "guh-lane-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucien Greathouse <me@lpghatguy.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.3.7",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-sassy-import": "^1.2.3"
+  }
+}
