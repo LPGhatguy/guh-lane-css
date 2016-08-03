@@ -1,12 +1,11 @@
 "use strict";
 
-const gulp = require("gulp");
-
 // build.input: input files
 // build.output: output file
 function buildCSS(system, build) {
 	const path = require("path");
 
+	const gulp = require("gulp");
 	const rename = require("gulp-rename");
 	const postcss = require("gulp-postcss");
 	const plumber = require("gulp-plumber");
